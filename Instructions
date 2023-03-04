@@ -1,0 +1,28 @@
+Congratulations! You have successfully produced the code for your dApp!
+
+The dApp code is written in React, so that you can further modify to your code. React is one of the most popular JavaScript libraries. 
+
+If you do not wish to make further modifications to your code, you can click on the 'Compile into HTML' to generate compiled code that you can directly port into your server.
+
+Otherwise please follow the instructions below to install your code into React.
+
+If you do not have Node.js, go to https://nodejs.org/en/ to download and install Node. This will also include Node Package Manager (NPM).
+Then install react with 'npm install -save react react-dom'. 
+At the Mac command prompt, 
+	type 'npx create-react-app [NameOfApp]' to create your dApp
+	type 'cd [NameOfApp]'
+	type 'cd public'
+	insert the lines in the file 'index.html' into index.html.
+	type 'cd ..'
+	type 'cd src'
+	replace the App.js and App.css files with the files you see here.
+	copy TokenERC20.json into this directory
+	copy Staking.json into this directory
+	type 'cd ..'
+	type 'npm install ethers'.
+	type 'npm install --save-dev @iconify/react'.
+	Type 'npm start' to see your dApp live on localhost.
+	Type 'npm run build' to create a build directory with a production build (i.e. compiled code) of your dApp.
+There are many ways to deploy your dApp. One way is to transfer the files in the build directory into your HTTP server through a FTP application like FileZilla.
+Your dApp is ready! Start advertising your dApp on your social media!
+	
