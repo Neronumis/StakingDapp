@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "ethers": "^6.0.8"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.0"
+  }
+}
